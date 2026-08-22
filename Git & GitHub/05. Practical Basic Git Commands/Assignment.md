@@ -37,12 +37,13 @@
 
 **Answers**
 
-<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/c28575fa-dcf5-4ef1-a3d4-d63c2eb92a08" />
+
 
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/d368cdd6-571c-4b11-aaf4-7dce24bf40a4" />
 
----
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/c28575fa-dcf5-4ef1-a3d4-d63c2eb92a08" />
 
+---
 ### Assignment 3: Practical – Clone + Basic Workflow
 
 **Objective:** Perform the complete basic Git workflow.
