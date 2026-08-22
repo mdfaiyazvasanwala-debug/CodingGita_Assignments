@@ -136,8 +136,9 @@ Perform the following in Git Bash and write the exact commands:
 
 **Answers**
 
-<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/80330682-79ec-46e4-8438-961ea478380b" />
 
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/754274ca-1327-44d4-b0b1-d06ed509cd71" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/80330682-79ec-46e4-8438-961ea478380b" />
 
 ---
