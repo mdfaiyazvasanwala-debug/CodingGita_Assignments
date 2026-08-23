@@ -85,6 +85,8 @@
 
 <img width="664" height="598" alt="image" src="https://github.com/user-attachments/assets/c1659f59-557d-4d2b-a7c3-d37a62bb7343" />
 
+<img width="990" height="693" alt="image" src="https://github.com/user-attachments/assets/a242c31f-1241-461b-8eee-eaeb3a8c62b5" />
+
 ---
 
 ### Assignment 4: Understanding Branching
