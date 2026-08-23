@@ -78,6 +78,13 @@
 - Screenshot of the file on GitHub
 
 **Answers**
+
+<img width="1283" height="752" alt="image" src="https://github.com/user-attachments/assets/feb2c59d-34a2-4f10-9451-7136f4d3f36c" />
+
+<img width="765" height="131" alt="image" src="https://github.com/user-attachments/assets/bab8f2c4-c9eb-4c32-b11c-b4855e8c4a75" />
+
+<img width="664" height="598" alt="image" src="https://github.com/user-attachments/assets/c1659f59-557d-4d2b-a7c3-d37a62bb7343" />
+
 ---
 
 ### Assignment 4: Understanding Branching
