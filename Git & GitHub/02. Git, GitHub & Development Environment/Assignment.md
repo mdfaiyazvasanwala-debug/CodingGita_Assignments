@@ -57,6 +57,8 @@
 
 **Answers**
 
+![Uploading image.png…]()
+
 
 <img width="886" height="692" alt="2 (2)" src="https://github.com/user-attachments/assets/9b7f7d56-299d-4008-9aa7-149d68109626" />
 
@@ -87,6 +89,10 @@
 <img width="886" height="691" alt="3 (2)" src="https://github.com/user-attachments/assets/d51a2396-3148-4822-98c1-7265f04b02cd" />
 
 <img width="869" height="445" alt="4 (1)" src="https://github.com/user-attachments/assets/96aedf0b-e953-4545-a234-c33e7ec7f62d" />
+
+<img width="1855" height="990" alt="Screenshot 2026-08-23 163848" src="https://github.com/user-attachments/assets/70ffaee0-34c4-43d2-a17c-5379b11f7c63" />
+
+<img width="1867" height="1104" alt="Screenshot 2026-08-23 163921" src="https://github.com/user-attachments/assets/89a7052a-f590-4a20-9829-df3dc25fd1e7" />
 
 
 
