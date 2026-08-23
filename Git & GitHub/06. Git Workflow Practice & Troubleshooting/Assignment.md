@@ -42,4 +42,14 @@ Submit the following:
    - The file `practice.txt`
    - The commit message “Added practice file”
 
+
+**Answers**
+
+[GitHub Repo](https://github.com/mdfaiyazvasanwala-debug/Day5_Practice.git)
+
+
+<img width="1216" height="1018" alt="image" src="https://github.com/user-attachments/assets/cd457ba1-ae4d-4d3b-81a9-861a3e9bce89" />
+
+<img width="973" height="829" alt="image" src="https://github.com/user-attachments/assets/a24f92ac-3d37-4dd7-baa9-154212a221c4" />
+
 ----
