@@ -36,6 +36,7 @@
 
 <img width="819" height="823" alt="5 (1)" src="https://github.com/user-attachments/assets/09b32e10-17d7-4e42-a832-50c0233969a4" />
 
+<img width="1291" height="358" alt="image" src="https://github.com/user-attachments/assets/20088db5-29bd-4c87-b34d-90ad9cc01d1c" />
 
 ---
 
@@ -65,6 +66,9 @@
 **Submission:** List of commands used + short answers
 
 **Answers**
+
+<img width="823" height="746" alt="image" src="https://github.com/user-attachments/assets/6558d912-0675-435c-b21e-8e0bdf054dce" />
+
 
 <img width="807" height="331" alt="5 (2)" src="https://github.com/user-attachments/assets/6570b527-3579-4089-884f-ff3e2c29d1cc" />
 
@@ -100,6 +104,7 @@ Perform the following in Git Bash and write the exact commands:
 
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/3919b599-9b7f-4782-8b90-0accf1c7b28e" />
 
+<img width="700" height="842" alt="image" src="https://github.com/user-attachments/assets/f5dcada5-69f9-4fde-9773-280f1dfe8fce" />
 
 ---
 
