@@ -104,6 +104,11 @@
 
 **Answers**
 
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/005fd2b9-afcf-4cc2-9b9a-664f700bc732" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/ee97bfad-3799-4d74-a8ea-7dcc0f850a4f" />
+
 ---
 
 ### Assignment 5: Conceptual + Reflection
@@ -127,5 +132,9 @@
 **Submission:** Written answers
 
 **Answers**
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/b36448c2-c58c-401c-9ef9-a066c2c41010" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/d7dba074-c127-41e6-a846-20d436db1c96" />
 
 ---
