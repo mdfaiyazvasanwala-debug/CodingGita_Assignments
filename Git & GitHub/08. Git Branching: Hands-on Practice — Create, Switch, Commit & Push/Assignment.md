@@ -76,6 +76,9 @@
 
 **Answers**
 
+<img width="1222" height="961" alt="image" src="https://github.com/user-attachments/assets/e3fc632a-aa8b-4f93-ac0d-a56a24b3d0c5" />
+
+
 ---
 
 ### Assignment 4: Conceptual + Error Handling
@@ -130,6 +133,11 @@ You are working on a website project. Currently you are on the `main` branch. Yo
 
 
 **Answers**
+
+<img width="1393" height="1061" alt="image" src="https://github.com/user-attachments/assets/87388eea-929e-4b61-8a94-327f543e8ecc" />
+
+<img width="1312" height="955" alt="image" src="https://github.com/user-attachments/assets/ed877f60-47cf-47ce-9553-b51fef9add3d" />
+
 
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/53c3b6d1-6237-420a-80ff-ce940e3603dd" />
 
