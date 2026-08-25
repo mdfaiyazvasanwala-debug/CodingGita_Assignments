@@ -47,6 +47,9 @@ My Tasks
 - Screenshot of the successfully merged second PR
 - Screenshot of `git log --oneline` after pull
 
+
+**Answers**
+
 ---
 
 ### Assignment 2 – Explain & Document the Conflict Markers (Mandatory)
@@ -69,6 +72,11 @@ My Tasks
 **Submit:**
 - Photos of the answers of the above questions.
 
+**Answers**
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/fd465407-9d5a-4b58-bf33-e7895f4f12ed" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/24621945-9769-4a87-a3c7-f3e99a8cc3da" />
 
 ---
 
@@ -84,6 +92,11 @@ write answer in your own words in your notebook:
 Commit and push the file to `main`.
 
 **Submit:** - Photos of the answers of the above questions.
+
+
+**Answers**
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/17b43b63-21d4-4510-9b8b-77b608871542" />
 
 ---
 
