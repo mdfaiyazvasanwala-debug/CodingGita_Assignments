@@ -17,6 +17,12 @@
 
 **Submission:** Written answers
 
+**Answers**
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/f45da080-9f49-47b1-8e26-0f060b365561" />
+
+<img width="1280" height="498" alt="image" src="https://github.com/user-attachments/assets/02e8027a-e369-4d28-a621-f75a844ddf29" />
+
 ---
 
 ### Assignment 2: Local Merge vs Pull Request
@@ -30,6 +36,12 @@
 4. Why is Pull Request preferred in team/professional projects?
 
 **Submission:** Written answers
+
+**Answers**
+
+<img width="1280" height="1203" alt="image" src="https://github.com/user-attachments/assets/8845e23d-502f-41a8-b402-27b8e469abce" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/0f491379-ef98-45cb-8a75-4c9cbf0e26da" />
 
 ---
 
@@ -50,6 +62,10 @@
 - Screenshot of `git branch` (final)  
 - Screenshot of `git log --oneline`  
 - Screenshot showing `about.txt` is present on main
+
+
+**Answers**
+
 
 ---
 
@@ -80,6 +96,10 @@
 - Screenshot after merging the PR  
 - Screenshot of final `git log --oneline` on main
 
+
+**Answers**
+
+
 ---
 
 ### Assignment 5: Complete Understanding + Reflection
@@ -96,5 +116,12 @@
 4. Write 4 key takeaways from Day 9.
 
 **Submission:** Written answers
+
+
+**Answers**
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/4c77a6e1-9044-4a94-b1ae-77c3630eaabe" />
+
+<img width="1280" height="923" alt="image" src="https://github.com/user-attachments/assets/52c78b4f-1626-4dbd-8ff9-2ed0c1a52bc6" />
 
 ---
