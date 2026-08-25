@@ -30,6 +30,8 @@ Take clear screenshots where asked. Submit the **GitHub repository link** or req
 
 **Submit:** Screenshot of `git log --oneline` after the merge + confirmation that the file is on GitHub `main`.
 
+**Answers**
+
 ---
 
 ### Assignment 2 – Pull Request Workflow (Mandatory)
@@ -54,6 +56,8 @@ Take clear screenshots where asked. Submit the **GitHub repository link** or req
 
 **Submit:** Link to the merged PR + screenshot of successful `git pull` + screenshot of GitHub PR (merged state).
 
+**Answers**
+
 ---
 
 ### Assignment 3 – Compare Both Workflows (Mandatory)
@@ -72,6 +76,8 @@ Take clear screenshots where asked. Submit the **GitHub repository link** or req
 
 **Submit:** Content of `comparison.txt` (or screenshot) + link to the commit/PR.
 
+**Answers**
+
 ---
 
 ### Assignment 4 – git pull Practice (Mandatory)
@@ -88,6 +94,8 @@ Take clear screenshots where asked. Submit the **GitHub repository link** or req
 
 **Submit:** Screenshot of the successful `git pull` that received the GitHub web edit.
 
+**Answers**
+
 ---
 
 ### Bonus Assignment – Mini Collaboration Simulation (Optional)
@@ -101,6 +109,8 @@ Take clear screenshots where asked. Submit the **GitHub repository link** or req
 5. Write 2–3 lines about what you observed when pulling after multiple merges.
 
 **Submit (optional):** Short note + screenshots of both merged PRs and final `git log --oneline`.
+
+**Answers**
 
 <img width="1280" height="766" alt="image" src="https://github.com/user-attachments/assets/d62793b8-f291-47fd-a2d6-ba27f7862753" />
 
