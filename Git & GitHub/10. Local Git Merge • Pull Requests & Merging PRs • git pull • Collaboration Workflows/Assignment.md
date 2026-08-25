@@ -102,4 +102,7 @@ Take clear screenshots where asked. Submit the **GitHub repository link** or req
 
 **Submit (optional):** Short note + screenshots of both merged PRs and final `git log --oneline`.
 
+<img width="1280" height="766" alt="image" src="https://github.com/user-attachments/assets/d62793b8-f291-47fd-a2d6-ba27f7862753" />
+
+
 ---
