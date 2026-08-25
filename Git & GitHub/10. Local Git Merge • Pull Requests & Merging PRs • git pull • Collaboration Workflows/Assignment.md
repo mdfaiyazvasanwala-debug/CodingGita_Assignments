@@ -32,6 +32,12 @@ Take clear screenshots where asked. Submit the **GitHub repository link** or req
 
 **Answers**
 
+<img width="1031" height="535" alt="image" src="https://github.com/user-attachments/assets/794cd23a-7c00-40fb-9998-da05ab11024b" />
+
+<img width="1098" height="387" alt="image" src="https://github.com/user-attachments/assets/34d78053-b98b-44fa-a7fd-2c0e7ea6ccdf" />
+
+<img width="1886" height="987" alt="image" src="https://github.com/user-attachments/assets/88ef5ef4-f66e-4fd6-b0fa-836493202dfa" />
+
 ---
 
 ### Assignment 2 – Pull Request Workflow (Mandatory)
@@ -58,6 +64,16 @@ Take clear screenshots where asked. Submit the **GitHub repository link** or req
 
 **Answers**
 
+[Github Repo](https://github.com/mdfaiyazvasanwala-debug/CG-Assignment.git)
+
+<img width="1887" height="985" alt="image" src="https://github.com/user-attachments/assets/1f32cf29-91e1-4c74-89bf-78cbfaa8ce8d" />
+
+<img width="1880" height="892" alt="image" src="https://github.com/user-attachments/assets/e69b6481-641d-44ef-b57e-cdbdbd5785a1" />
+
+<img width="1868" height="1017" alt="image" src="https://github.com/user-attachments/assets/9b337834-4e7f-496f-97d8-3e6cbb216327" />
+
+<img width="865" height="728" alt="image" src="https://github.com/user-attachments/assets/0ea1518f-27db-4780-a746-3829bf75a87d" />
+
 ---
 
 ### Assignment 3 – Compare Both Workflows (Mandatory)
@@ -78,6 +94,15 @@ Take clear screenshots where asked. Submit the **GitHub repository link** or req
 
 **Answers**
 
+[Github Repo](https://github.com/mdfaiyazvasanwala-debug/CG-Assignment.git)
+
+<img width="747" height="638" alt="image" src="https://github.com/user-attachments/assets/9d8ca096-394e-4e08-822c-bbced8d438be" />
+
+<img width="792" height="407" alt="image" src="https://github.com/user-attachments/assets/57983535-67c7-4d05-bbd8-afa8f9fe54b9" />
+
+
+<img width="1886" height="958" alt="image" src="https://github.com/user-attachments/assets/09cf3cc9-988f-417b-9bdf-a4a7da9bc435" />
+
 ---
 
 ### Assignment 4 – git pull Practice (Mandatory)
@@ -95,6 +120,8 @@ Take clear screenshots where asked. Submit the **GitHub repository link** or req
 **Submit:** Screenshot of the successful `git pull` that received the GitHub web edit.
 
 **Answers**
+
+<img width="1187" height="797" alt="image" src="https://github.com/user-attachments/assets/37491ad1-cc2a-4043-af2e-3dacae4c51ae" />
 
 ---
 
