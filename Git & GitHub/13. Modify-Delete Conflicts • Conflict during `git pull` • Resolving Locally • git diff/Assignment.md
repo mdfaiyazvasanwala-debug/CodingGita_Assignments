@@ -38,6 +38,8 @@ Take screenshots where asked and submit the GitHub repository link as per submis
 - Screenshot of the final resolved file on GitHub
 - Repository link
 
+
+**Answers**
 ---
 
 ### Assignment 2 
@@ -83,6 +85,8 @@ Take screenshots where asked and submit the GitHub repository link as per submis
 - Screenshot of final `notes.txt` on main
 - Repository link
 
+
+**Answers**
 ---
 
 ### Assignment 3 
@@ -116,5 +120,10 @@ Write answer in your own words in your notebook:
 - Screenshots of the three `git diff` commands output
 - Final repository link
 - Photos of written answers
+
+
+**Answers**
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/71b43a4b-9a48-4314-b87e-e27fb6dd9210" />
 
 ---
