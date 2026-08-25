@@ -66,6 +66,7 @@
 
 **Answers**
 
+<img width="988" height="693" alt="image" src="https://github.com/user-attachments/assets/c0245e6f-9748-442a-9eb8-b4e07c513f79" />
 
 ---
 
@@ -99,6 +100,13 @@
 
 **Answers**
 
+<img width="1892" height="926" alt="image" src="https://github.com/user-attachments/assets/936d986b-fce8-46d6-bb5e-35ae3ba091b9" />
+
+<img width="1885" height="976" alt="image" src="https://github.com/user-attachments/assets/5c1e5e40-bddc-48e5-94ee-c4197e653aa2" />
+
+<img width="1333" height="885" alt="image" src="https://github.com/user-attachments/assets/d9bef656-c248-4e9d-894a-f4d834b44981" />
+
+<img width="862" height="703" alt="image" src="https://github.com/user-attachments/assets/3799e2cf-affb-436e-94f6-4911f6a8b7a0" />
 
 ---
 
