@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Assignment</title>
+</head>
+<body>
+
+    <h1>1. Image in Same Folder</h1>
+    <img src="flower.jpg" alt="Beautiful flower">
+
+
+    <h1>2. Image Inside Images Folder</h1>
+    <img src="images/logo.png" alt="Company logo" width="200">
+
+
+    <h1>3. Image Inside Assets/Images Folder</h1>
+    <img src="assets/images/banner.jpg" alt="Website banner">
+
+
+    <h1>4. Image in Root Folder from Pages Folder</h1>
+    <img src="../photo.jpg" alt="Photo">
+
+
+    <h1>5. Image with Width and Height</h1>
+    <img src="images/nature.jpg"
+         alt="Beautiful nature view"
+         width="300"
+         height="200">
+
+
+    <h1>6. Image with Title Attribute</h1>
+    <img src="image.jpg"
+         alt="Sample image"
+         title="Click to view full size">
+
+
+    <h1>7. Lazy Loading Image</h1>
+    <img src="images/photo.jpg"
+         alt="Photo"
+         loading="lazy">
+
+
+    <h1>8. Eager Loading Hero Image</h1>
+    <img src="images/hero.jpg"
+         alt="Hero image"
+         loading="eager">
+
+
+    <h1>9. Auto Loading Image</h1>
+    <img src="image.jpg"
+         alt="Sample image"
+         loading="auto">
+
+    <p>The browser decides whether to load the image eagerly or lazily.</p>
+
+
+    <h1>10. Responsive Image Using Srcset</h1>
+    <img src="medium.jpg"
+         srcset="small.jpg 400w,
+                 medium.jpg 800w,
+                 large.jpg 1200w"
+         alt="Responsive image">
+
+
+    <h1>11. Complete Image Tag</h1>
+    <img src="images/photo.jpg"
+         srcset="images/photo-small.jpg 400w,
+                 images/photo-large.jpg 800w"
+         alt="Sample photo"
+         width="400"
+         height="300"
+         loading="lazy"
+         title="Sample image">
+
+
+    <h1>12. Two Images Side by Side</h1>
+
+    <img src="assets/logo.png"
+         alt="Company logo"
+         width="250"
+         loading="eager">
+
+    <img src="images/products/shoe.jpg"
+         alt="Product shoe"
+         width="250"
+         loading="lazy">
+
+</body>
+</html>
