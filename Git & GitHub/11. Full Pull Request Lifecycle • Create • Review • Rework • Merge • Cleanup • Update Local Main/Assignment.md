@@ -43,6 +43,12 @@ Take clear screenshots where asked. Submit the **GitHub repository link** or req
 
 **Submit:** Merged PR link + the 3 screenshots listed above.
 
+**Answers**
+
+
+<img width="1416" height="780" alt="image" src="https://github.com/user-attachments/assets/49c14507-f933-490f-8c49-632a2f792ce9" />
+
+
 ---
 
 ### Assignment 2 – `feature/about-page` with Review & Rework (Mandatory)
@@ -77,6 +83,9 @@ Take clear screenshots where asked. Submit the **GitHub repository link** or req
 
 **Submit:** PR link showing review comment + rework commit, plus merged PR screenshot.
 
+
+**Answers**
+
 ---
 
 ### Assignment 3 – `feature/navbar` Independent Full Cycle (Mandatory)
@@ -98,6 +107,10 @@ Take clear screenshots where asked. Submit the **GitHub repository link** or req
 
 **Submit:** Merged PR link + screenshot of `git log --oneline`.
 
+
+
+**Answers**
+
 ---
 
 ### Assignment 4 – Short Reflection (Mandatory)
@@ -110,6 +123,9 @@ Write answer **in your own words** in your notebook:
 - Write the full sequence of commands you used to update local main and delete the local feature branch.
 
 **Submit:** Photos of the hand written answers of the above questions.
+
+
+**Answers**
 
 ---
 
