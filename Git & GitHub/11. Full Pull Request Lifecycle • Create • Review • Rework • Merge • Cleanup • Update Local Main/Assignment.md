@@ -45,7 +45,7 @@ Take clear screenshots where asked. Submit the **GitHub repository link** or req
 
 **Answers**
 
-(Github Repo)[https://github.com/mdfaiyazvasanwala-debug/CG-Assignment.git]
+[Github Repo](https://github.com/mdfaiyazvasanwala-debug/CG-Assignment.git)
 <img width="1416" height="780" alt="image" src="https://github.com/user-attachments/assets/49c14507-f933-490f-8c49-632a2f792ce9" />
 
 <img width="842" height="1062" alt="image" src="https://github.com/user-attachments/assets/68a2f962-87c3-4c69-8f0a-cf52a3ce31e7" />
