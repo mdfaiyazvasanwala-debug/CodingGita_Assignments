@@ -42,3 +42,60 @@ Ans: Node.js is a runtime environment that allows JavaScript to run outside the 
 
 Q13. What is ECMAScript?
 Ans: ECMAScript is the standard/specification that defines JavaScript. JavaScript is an implementation of the ECMAScript standard.
+
+## Section B: True or False
+
+1. **False** — JavaScript is a **dynamically typed** language.
+
+2. **False** — JavaScript can run **inside and outside the browser** (e.g., using Node.js).
+
+3. **False** — **HTML** provides structure; **JavaScript** is responsible for behavior.
+
+4. True ✅
+
+5. False — JavaScript is **case-sensitive**.
+
+6. False — `let name` and `let Name` are **different variables**.
+
+7. False — ECMAScript is a **standard/specification** for scripting languages, implemented by JavaScript.
+
+8. False — React, Angular, and Vue.js are mainly used for **Frontend development**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
