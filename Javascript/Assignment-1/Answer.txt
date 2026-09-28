@@ -1,0 +1,46 @@
+## Section A: Short Answer Questions
+
+**Q1.** What is JavaScript?
+**Ans:** JavaScript is a high-level programming language used to make web pages interactive and dynamic.
+
+**Q2.** Who created JavaScript and in which year?
+**Ans:** Brendan Eich created JavaScript in **1995**.
+
+**Q3.** What was the original name of JavaScript?
+**Ans:** Its original name was **Mocha**, later changed to LiveScript and then JavaScript.
+
+**Q4.** Is JavaScript the same as Java? Give one major difference.
+**Ans:** No. JavaScript is mainly used for web development, while Java is a general-purpose programming language.
+
+**Q5.** What does high-level programming language mean?
+**Ans:** It is a language that is easy for humans to read and write and hides complex computer operations.
+
+**Q6.** Is JavaScript compiled or interpreted?
+**Ans:** JavaScript is traditionally interpreted, but modern engines use **Just-In-Time (JIT) compilation** for better performance.
+
+**Q7.** JavaScript engines:
+
+* **Chrome:** V8
+* **Firefox:** SpiderMonkey
+* **Safari:** JavaScriptCore
+
+**Q8.** What is Dynamic Typing?
+**Ans:** A variable can hold different types of values without specifying its type explicitly.
+
+**Q9.** Static vs Dynamic website?
+**Ans:** A static website shows fixed content, while a dynamic website can change content based on user actions or data.
+
+**Q10.** Three pillars of Front-end Web Development:
+
+* **HTML:** Structure of the webpage.
+* **CSS:** Styling and design.
+* **JavaScript:** Behavior and interactivity.
+
+**Q11.** Difference between Frontend and Backend?
+**Ans:** **Frontend** is what users see and interact with; **Backend** handles server-side logic, databases, and APIs.
+
+**Q12.** What is Node.js?
+**Ans:** Node.js is a runtime environment that allows JavaScript to run outside the browser, mainly on servers.
+
+**Q13.** What is ECMAScript?
+**Ans:** ECMAScript is the **standard/specification** that defines JavaScript. JavaScript is an implementation of the ECMAScript standard.
