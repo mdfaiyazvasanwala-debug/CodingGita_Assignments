@@ -43,13 +43,15 @@ Ans: Node.js is a runtime environment that allows JavaScript to run outside the 
 Q13. What is ECMAScript?
 Ans: ECMAScript is the standard/specification that defines JavaScript. JavaScript is an implementation of the ECMAScript standard.
 
-## Section B: True or False
 
-1. **False** — JavaScript is a **dynamically typed** language.
 
-2. **False** — JavaScript can run **inside and outside the browser** (e.g., using Node.js).
+Section B: True or False
 
-3. **False** — **HTML** provides structure; **JavaScript** is responsible for behavior.
+1. False — JavaScript is a **dynamically typed** language.
+
+2. False — JavaScript can run **inside and outside the browser** (e.g., using Node.js).
+
+3. False — **HTML** provides structure; **JavaScript** is responsible for behavior.
 
 4. True ✅
 
@@ -64,9 +66,72 @@ Ans: ECMAScript is the standard/specification that defines JavaScript. JavaScrip
 
 
 
+Section C: Fill in the Blanks
+
+1. JavaScript was created by Brendan Eich in the year 1995.
+
+2. The three technologies used in Front-end development are HTML, CSS, and JavaScript.
+
+3. JavaScript engines: Chrome uses V8, Firefox uses SpiderMonkey.
+
+4. In the restaurant analogy: Customer = Frontend, Waiter = API, Chef = Backend.
+
+5. JavaScript file extension is .js.
 
 
 
+Section D: Conceptual Questions
+
+Q14. Static vs Dynamic Website
+
+Static: Fixed content that usually does not change automatically.
+Example: Portfolio website.
+
+Dynamic: Content can change based on users or data.
+Example: Instagram.
+
+
+Q15. Two features of JavaScript
+
+1. Interactivity: Handles clicks, forms, buttons, etc.
+2. Dynamic content: Can change HTML and CSS without reloading the page.
+
+
+Q16. Four areas where JavaScript is used
+
+1. Server-side: Node.js
+2. Mobile apps: React Native
+3. Desktop apps: Electron
+4. Game development: Phaser
+
+
+Q17. Internal vs External JavaScript
+
+Internal: JavaScript is written directly inside the HTML using <script>.
+
+External: JavaScript is written in a separate .js file and linked to HTML.
+
+Advantages of external JS:
+
+1. Code can be reused on multiple HTML pages.
+2. Keeps HTML code clean and organized.
+
+
+Q18. Frontend vs Backend - Restaurant Analogy
+
+Frontend: Like the dining area/menu that customers see and interact with.
+
+Backend: Like the kitchen, where the actual processing and preparation happens.
+
+API: Like the waiter, carrying requests between the customer and kitchen.
+
+
+Q19. Why should a beginner learn JavaScript?
+
+1. It makes websites interactive.
+2. It is widely used in web development.
+3. It can be used for frontend and backend development.
+4. It has many popular frameworks like React, Angular, and Vue.js.
 
 
 
