@@ -1,0 +1,119 @@
+Section E: Code-Based Questions
+Q20. Predict the output
+
+Output: -->
+
+number
+string
+boolean
+
+<!-- <Explanation: JavaScript is dynamically typed, so the variable value can store different types of values.
+
+
+Q21. Alert box on button click -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Alert</title>
+</head>
+<body>
+
+<button onclick="showMessage()">Click Me</button>
+
+<script>
+function showMessage() {
+    alert("Welcome to JavaScript!");
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+<!-- Q22. Event-driven programming -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Example</title>
+</head>
+<body>
+
+<p id="demo">Click the button.</p>
+<button id="myBtn">Click Me</button>
+
+<script>
+document.getElementById("myBtn").addEventListener("click", function() {
+    document.getElementById("demo").textContent = "Button was clicked!";
+});
+</script>
+
+</body>
+</html>
+
+
+<!-- Explanation: The click event triggers the function when the user clicks the button. -->
+
+
+<!-- Section F: Practical / Application Based
+Q23. Complete HTML + JavaScript Code
+ -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First JavaScript Page</title>
+</head>
+<body>
+
+    <h1>My First JavaScript Page</h1>
+
+    <button onclick="changePage()">Click Me</button>
+
+    <script>
+        console.log("JavaScript is running successfully!");
+
+        function changePage() {
+            alert("Hello, B.Tech Student!");
+            document.body.style.backgroundColor = "lightblue";
+        }
+    </script>
+
+</body>
+</html>
+
+<!-- Output/Working:
+
+Displays the heading My First JavaScript Page.
+Clicking Click Me shows the alert.
+Background changes to light blue.
+The message appears in the browser console. -->
+
+<!-- 
+
+Section G: Higher Order Thinking
+
+Q24. Answer:
+JavaScript became popular because it is easy to learn, flexible, and supported by almost all browsers. It can be used for frontend, backend, mobile, desktop, and other applications.
+
+Node.js allowed JavaScript to run outside the browser, especially for backend development.
+ECMAScript updates added new features and improvements, making JavaScript more powerful and modern.
+A large community and many frameworks/libraries also helped JavaScript grow.
+ -->
+
+
+
+
+
+
+
+
+
+
+
+  
