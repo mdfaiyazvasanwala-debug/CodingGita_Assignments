@@ -183,7 +183,7 @@
 // Question-8
 
 
-// let num = 24;
+// let num = 2024;
 
 // if (num%4==0){
 //     console.log("Leap Year")
