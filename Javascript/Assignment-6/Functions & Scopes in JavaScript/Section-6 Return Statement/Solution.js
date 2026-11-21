@@ -27,4 +27,11 @@
 // }
 // console.log("Rohit" , "Sharma")
 
+// Theory Questions 
+// Question-4. What does a function return if there is no return statement?
 
+// A function returns undefined if there is no return statement.
+
+// Question-5. Why do we use return instead of console.log()?
+
+// return sends a value back from the function so it can be stored or used in other calculations. console.log() only displays the value on the console and does not return it.
