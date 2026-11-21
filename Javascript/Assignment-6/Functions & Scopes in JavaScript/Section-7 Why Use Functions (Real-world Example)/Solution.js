@@ -50,4 +50,14 @@
 // console.log(findAverage(50 , 75 , 58))
 
 
+// Theory Questions – 3
+// Question-4. How do functions help in reducing code repetition?
 
+// Functions allow us to write code once and use it multiple times by calling the function.
+
+// Example: A calculator function can be used to add different numbers without writing the addition code again and again.
+
+// Question-5. Mention any three advantages of using functions in a program.
+// 1. Reduces code repetition.
+// 2. Makes code easier to understand.
+// 3. Makes code reusable and easier to maintain.
