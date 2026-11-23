@@ -186,621 +186,621 @@
 // Question-5: boolean
 
 
-Section 11: Array of Arrays (Matrix) – 2D Arrays
-Question-1:
-const matrix = [
-    [10, 20],
-    [30, 40],
-    [50, 60],
-    [70, 80]
-];
+// Section 11: Array of Arrays (Matrix) – 2D Arrays
+// Question-1:
+// const matrix = [
+//     [10, 20],
+//     [30, 40],
+//     [50, 60],
+//     [70, 80]
+// ];
 
-for (let i = 0; i < matrix.length; i++) {
-    console.log(matrix[i][1]);
-}
+// for (let i = 0; i < matrix.length; i++) {
+//     console.log(matrix[i][1]);
+// }
 
 
-Output:
-20
-40
-60
-80
+// Output:
+// 20
+// 40
+// 60
+// 80
 
 
-Question-2:
-const marks = [
-    [85, 90, 78],
-    [70, 75, 80],
-    [88, 82, 95],
-    [60, 65, 70]
-];
+// Question-2:
+// const marks = [
+//     [85, 90, 78],
+//     [70, 75, 80],
+//     [88, 82, 95],
+//     [60, 65, 70]
+// ];
 
-console.log(marks[2]);
+// console.log(marks[2]);
 
 
-Output:
-[88, 82, 95]
+// Output:
+// [88, 82, 95]
 
 
-Question-3:
-const matrix = [
-    [1, 2, 3, 4],
-    [5, 6, 7, 8],
-    [9, 10, 11, 12]
-];
+// Question-3:
+// const matrix = [
+//     [1, 2, 3, 4],
+//     [5, 6, 7, 8],
+//     [9, 10, 11, 12]
+// ];
 
-let total = 0;
+// let total = 0;
 
-for (let i = 0; i < matrix.length; i++) {
-    total = total + matrix[i].length;
-}
+// for (let i = 0; i < matrix.length; i++) {
+//     total = total + matrix[i].length;
+// }
 
-console.log("Total Elements:", total);
+// console.log("Total Elements:", total);
 
 
-Output:
-Total Elements: 12
+// Output:
+// Total Elements: 12
 
 
-Question-4:
-const matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-];
+// Question-4:
+// const matrix = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ];
 
-matrix[1][1] = 0;
+// matrix[1][1] = 0;
 
-console.log(matrix);
+// console.log(matrix);
 
 
-Output:
-[
-  [1, 2, 3],
-  [4, 0, 6],
-  [7, 8, 9]
-]
+// Output:
+// [
+//   [1, 2, 3],
+//   [4, 0, 6],
+//   [7, 8, 9]
+// ]
 
 
-Question-5: 
-const matrix = [
-    [10, 20, 30],
-    [40, 50, 60],
-    [70, 80, 90]
-];
+// Question-5: 
+// const matrix = [
+//     [10, 20, 30],
+//     [40, 50, 60],
+//     [70, 80, 90]
+// ];
 
-console.log(matrix[0][2]);
+// console.log(matrix[0][2]);
 
 
-Output:
-30
+// Output:
+// 30
 
 
 
-Section 12: Real-World Example
-Question-1: What does marks[i] represent inside the loop?
+// Section 12: Real-World Example
+// Question-1: What does marks[i] represent inside the loop?
 
-It represents the marks of one student (an inner array).
+// It represents the marks of one student (an inner array).
 
-Question-2: Why do we use marks.length instead of hard-coding 3?
+// Question-2: Why do we use marks.length instead of hard-coding 3?
 
-Because marks.length automatically gives the total number of students, making the code flexible.
+// Because marks.length automatically gives the total number of students, making the code flexible.
 
-Question-3: What happens if one student has only 2 subject marks instead of 3?
+// Question-3: What happens if one student has only 2 subject marks instead of 3?
 
-The calculation will use undefined for the missing third mark. The total and average will become NaN (Not a Number).
+// The calculation will use undefined for the missing third mark. The total and average will become NaN (Not a Number).
 
-Section 13: Common Mistakes
-Question-1: What does the following code output?
-const arr = [10, 20, 30];
-console.log(arr[3]);
+// Section 13: Common Mistakes
+// Question-1: What does the following code output?
+// const arr = [10, 20, 30];
+// console.log(arr[3]);
 
 
-Output:
-undefined
+// Output:
+// undefined
 
 
-Question-2: Why is this code considered wrong?
-arr[arr.length] = 10;
+// Question-2: Why is this code considered wrong?
+// arr[arr.length] = 10;
 
 
-It is not actually wrong. It adds 10 at the end of the array. However, if the intention is to replace the last element, this code does not do that.
+// It is not actually wrong. It adds 10 at the end of the array. However, if the intention is to replace the last element, this code does not do that.
 
-Question-3: Correct the code so that 40 is properly added at the end of the array.
-let arr = [10, 20, 30];
+// Question-3: Correct the code so that 40 is properly added at the end of the array.
+// let arr = [10, 20, 30];
 
-arr[arr.length] = 40;
+// arr[arr.length] = 40;
 
-console.log(arr);
+// console.log(arr);
 
 
-Output:
-[10, 20, 30, 40]
+// Output:
+// [10, 20, 30, 40]
 
 
-Question-4: What is a sparse array? Give one example.
+// Question-4: What is a sparse array? Give one example.
 
-A sparse array is an array that contains empty slots between elements.
+// A sparse array is an array that contains empty slots between elements.
 
-Example:
-let arr = [10, 20, 30];
+// Example:
+// let arr = [10, 20, 30];
 
-arr[5] = 60;
+// arr[5] = 60;
 
-console.log(arr);
+// console.log(arr);
 
 
-Question-5: True or False: Accessing an invalid index throws an error in JavaScript.
+// Question-5: True or False: Accessing an invalid index throws an error in JavaScript.
 
-False. It returns undefined.
+// False. It returns undefined.
 
-Question-6: What is the difference between an array and an object in JavaScript?
-- Array stores values using numbered indexes.
-- Object stores values using named keys (properties).
+// Question-6: What is the difference between an array and an object in JavaScript?
+// - Array stores values using numbered indexes.
+// - Object stores values using named keys (properties).
 
-Section 14: Practice Exercises
-Question-1: 
-const numbers = [12, 7, 18, 25, 4, 9, 30];
+// Section 14: Practice Exercises
+// Question-1: 
+// const numbers = [12, 7, 18, 25, 4, 9, 30];
 
-for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] % 2 === 0) {
-        console.log(numbers[i]);
-    }
-}
+// for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] % 2 === 0) {
+//         console.log(numbers[i]);
+//     }
+// }
 
 
-Output:
-12
-18
-4
-30
+// Output:
+// 12
+// 18
+// 4
+// 30
 
 
-Question-2:
-const cities = ["Ahmedabad", "Surat", "Rajkot", "Vadodara", "Bhavnagar"];
+// Question-2:
+// const cities = ["Ahmedabad", "Surat", "Rajkot", "Vadodara", "Bhavnagar"];
 
-for (let i = cities.length - 1; i >= 0; i--) {
-    console.log(cities[i]);
-}
+// for (let i = cities.length - 1; i >= 0; i--) {
+//     console.log(cities[i]);
+// }
 
 
-Output:
-Bhavnagar
-Vadodara
-Rajkot
-Surat
-Ahmedabad
+// Output:
+// Bhavnagar
+// Vadodara
+// Rajkot
+// Surat
+// Ahmedabad
 
 
-Question-3:
-const scores = [12, 45, 7, 89, 23];
+// Question-3:
+// const scores = [12, 45, 7, 89, 23];
 
-let largest = scores[0];
-let second = -Infinity;
+// let largest = scores[0];
+// let second = -Infinity;
 
-for (let i = 1; i < scores.length; i++) {
-    if (scores[i] > largest) {
-        second = largest;
-        largest = scores[i];
-    }
-    else if (scores[i] > second) {
-        second = scores[i];
-    }
-}
+// for (let i = 1; i < scores.length; i++) {
+//     if (scores[i] > largest) {
+//         second = largest;
+//         largest = scores[i];
+//     }
+//     else if (scores[i] > second) {
+//         second = scores[i];
+//     }
+// }
 
-console.log("Second Largest:", second);
+// console.log("Second Largest:", second);
 
 
-Output:
-Second Largest: 45
+// Output:
+// Second Largest: 45
 
 
-Question-4:
-const colors = ["Red", "Blue", "Green", "Yellow"];
+// Question-4:
+// const colors = ["Red", "Blue", "Green", "Yellow"];
 
-colors.push("Purple");
-colors.unshift("Black");
+// colors.push("Purple");
+// colors.unshift("Black");
 
-console.log(colors);
+// console.log(colors);
 
 
-Output:
-["Black", "Red", "Blue", "Green", "Yellow", "Purple"]
+// Output:
+// ["Black", "Red", "Blue", "Green", "Yellow", "Purple"]
 
 
-Question-5:
-const matrix = [
-    [10, 20, 30],
-    [40, 50, 60]
-];
+// Question-5:
+// const matrix = [
+//     [10, 20, 30],
+//     [40, 50, 60]
+// ];
 
-let sum = 0;
+// let sum = 0;
 
-for (let i = 0; i < matrix.length; i++) {
-    for (let j = 0; j < matrix[i].length; j++) {
-        sum = sum + matrix[i][j];
-    }
-}
+// for (let i = 0; i < matrix.length; i++) {
+//     for (let j = 0; j < matrix[i].length; j++) {
+//         sum = sum + matrix[i][j];
+//     }
+// }
 
-console.log("Total Sum:", sum);
+// console.log("Total Sum:", sum);
 
 
-Output:
-Total Sum: 210
+// Output:
+// Total Sum: 210
 
 
-Question-6:
-const marks = [45, 67, 89, 32, 76, 91, 54];
+// Question-6:
+// const marks = [45, 67, 89, 32, 76, 91, 54];
 
-let count = 0;
+// let count = 0;
 
-for (let i = 0; i < marks.length; i++) {
-    if (marks[i] > 50) {
-        count++;
-    }
-}
+// for (let i = 0; i < marks.length; i++) {
+//     if (marks[i] > 50) {
+//         count++;
+//     }
+// }
 
-console.log("Count:", count);
+// console.log("Count:", count);
 
 
-Output:
-Count: 5
+// Output:
+// Count: 5
 
 
-Question-7: 
-const matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-];
+// Question-7: 
+// const matrix = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ];
 
-for (let i = 0; i < matrix.length; i++) {
-    console.log(matrix[i][i]);
-}
+// for (let i = 0; i < matrix.length; i++) {
+//     console.log(matrix[i][i]);
+// }
 
 
-Output:
-1
-5
-9
+// Output:
+// 1
+// 5
+// 9
 
 
 
-Section 15: Multiple Choice Questions
-Question-1: What will be the output?
+// Section 15: Multiple Choice Questions
+// Question-1: What will be the output?
 
-Answer: d) 20
+// Answer: d) 20
 
-Question-2: Which method adds an element at the beginning?
+// Question-2: Which method adds an element at the beginning?
 
-Answer: c) arr.unshift(5)
+// Answer: c) arr.unshift(5)
 
-Question-3: What does indexOf("Orange") print?
+// Question-3: What does indexOf("Orange") print?
 
-Answer: c) -1
+// Answer: c) -1
 
-Question-4: Which statement about JavaScript arrays is true?
+// Question-4: Which statement about JavaScript arrays is true?
 
-Answer: c) Arrays can store mixed data types.
+// Answer: c) Arrays can store mixed data types.
 
-Question-5: What is the output?
-let nums = [1, 2, 3];
-nums.pop();
-nums.push(4);
-console.log(nums);
+// Question-5: What is the output?
+// let nums = [1, 2, 3];
+// nums.pop();
+// nums.push(4);
+// console.log(nums);
 
 
-Answer: b) [1, 2, 4]
+// Answer: b) [1, 2, 4]
 
-Question-6: What does matrix[2][1] return?
+// Question-6: What does matrix[2][1] return?
 
-Answer: d) 60
+// Answer: d) 60
 
-Question-7: What does typeof data[1] return?
+// Question-7: What does typeof data[1] return?
 
-Answer: b) string
+// Answer: b) string
 
-Section 16-A: Mini Assignment 1 – Shopping Cart Calculator
-Question-1:
-const cart = [
-    ["Laptop", 45000, 1],
-    ["Mouse", 800, 2],
-    ["Keyboard", 1500, 1],
-    ["Headphones", 2500, 1]
-];
+// Section 16-A: Mini Assignment 1 – Shopping Cart Calculator
+// Question-1:
+// const cart = [
+//     ["Laptop", 45000, 1],
+//     ["Mouse", 800, 2],
+//     ["Keyboard", 1500, 1],
+//     ["Headphones", 2500, 1]
+// ];
 
-let grandTotal = 0;
+// let grandTotal = 0;
 
-for (let i = 0; i < cart.length; i++) {
-    let product = cart[i][0];
-    let price = cart[i][1];
-    let quantity = cart[i][2];
+// for (let i = 0; i < cart.length; i++) {
+//     let product = cart[i][0];
+//     let price = cart[i][1];
+//     let quantity = cart[i][2];
 
-    let itemTotal = price * quantity;
+//     let itemTotal = price * quantity;
 
-    console.log("Product:", product);
-    console.log("Price:", price);
-    console.log("Quantity:", quantity);
-    console.log("Item Total:", itemTotal);
-    console.log("----------------");
+//     console.log("Product:", product);
+//     console.log("Price:", price);
+//     console.log("Quantity:", quantity);
+//     console.log("Item Total:", itemTotal);
+//     console.log("----------------");
 
-    grandTotal = grandTotal + itemTotal;
-}
+//     grandTotal = grandTotal + itemTotal;
+// }
 
-console.log("Grand Total:", grandTotal);
+// console.log("Grand Total:", grandTotal);
 
-let discount = 0;
+// let discount = 0;
 
-if (grandTotal > 50000) {
-    discount = grandTotal * 0.10;
-}
+// if (grandTotal > 50000) {
+//     discount = grandTotal * 0.10;
+// }
 
-let finalAmount = grandTotal - discount;
+// let finalAmount = grandTotal - discount;
 
-console.log("Discount:", discount);
-console.log("Final Payable Amount:", finalAmount);
+// console.log("Discount:", discount);
+// console.log("Final Payable Amount:", finalAmount);
 
 
-Output:
-Product: Laptop
-Price: 45000
-Quantity: 1
-Item Total: 45000
-----------------
-Product: Mouse
-Price: 800
-Quantity: 2
-Item Total: 1600
-----------------
-Product: Keyboard
-Price: 1500
-Quantity: 1
-Item Total: 1500
-----------------
-Product: Headphones
-Price: 2500
-Quantity: 1
-Item Total: 2500
-----------------
-Grand Total: 50600
-Discount: 5060
-Final Payable Amount: 45540
+// Output:
+// Product: Laptop
+// Price: 45000
+// Quantity: 1
+// Item Total: 45000
+// ----------------
+// Product: Mouse
+// Price: 800
+// Quantity: 2
+// Item Total: 1600
+// ----------------
+// Product: Keyboard
+// Price: 1500
+// Quantity: 1
+// Item Total: 1500
+// ----------------
+// Product: Headphones
+// Price: 2500
+// Quantity: 1
+// Item Total: 2500
+// ----------------
+// Grand Total: 50600
+// Discount: 5060
+// Final Payable Amount: 45540
 
 
 
-Section 16-B: Mini Assignment 2 – Classroom Attendance Tracker
-Question-1: 
-const attendance = [
-    ["Jenil", ["P", "P", "A", "P", "P"]],
-    ["Mahir", ["P", "A", "P", "P", "A"]],
-    ["Yashvi", ["P", "P", "P", "P", "P"]],
-    ["Arjun", ["A", "A", "P", "P", "A"]]
-];
+// Section 16-B: Mini Assignment 2 – Classroom Attendance Tracker
+// Question-1: 
+// const attendance = [
+//     ["Jenil", ["P", "P", "A", "P", "P"]],
+//     ["Mahir", ["P", "A", "P", "P", "A"]],
+//     ["Yashvi", ["P", "P", "P", "P", "P"]],
+//     ["Arjun", ["A", "A", "P", "P", "A"]]
+// ];
 
-let highest = 0;
-let topper = "";
+// let highest = 0;
+// let topper = "";
 
-for (let i = 0; i < attendance.length; i++) {
-    let name = attendance[i][0];
-    let days = attendance[i][1];
+// for (let i = 0; i < attendance.length; i++) {
+//     let name = attendance[i][0];
+//     let days = attendance[i][1];
 
-    let present = 0;
-    let absent = 0;
+//     let present = 0;
+//     let absent = 0;
 
-    for (let j = 0; j < days.length; j++) {
-        if (days[j] === "P") {
-            present++;
-        }
-        else {
-            absent++;
-        }
-    }
+//     for (let j = 0; j < days.length; j++) {
+//         if (days[j] === "P") {
+//             present++;
+//         }
+//         else {
+//             absent++;
+//         }
+//     }
 
-    let percentage = (present / days.length) * 100;
+//     let percentage = (present / days.length) * 100;
 
-    let status;
+//     let status;
 
-    if (percentage >= 75) {
-        status = "Good";
-    }
-    else {
-        status = "Low Attendance";
-    }
+//     if (percentage >= 75) {
+//         status = "Good";
+//     }
+//     else {
+//         status = "Low Attendance";
+//     }
 
-    console.log("Name:", name);
-    console.log("Present:", present);
-    console.log("Absent:", absent);
-    console.log("Attendance:", percentage + "%");
-    console.log("Status:", status);
-    console.log("----------------");
+//     console.log("Name:", name);
+//     console.log("Present:", present);
+//     console.log("Absent:", absent);
+//     console.log("Attendance:", percentage + "%");
+//     console.log("Status:", status);
+//     console.log("----------------");
 
-    if (percentage > highest) {
-        highest = percentage;
-        topper = name;
-    }
-}
+//     if (percentage > highest) {
+//         highest = percentage;
+//         topper = name;
+//     }
+// }
 
-console.log("Highest Attendance:", topper);
-console.log("Percentage:", highest + "%");
+// console.log("Highest Attendance:", topper);
+// console.log("Percentage:", highest + "%");
 
 
-Output:
-Name: Jenil
-Present: 4
-Absent: 1
-Attendance: 80%
-Status: Good
-----------------
-Name: Mahir
-Present: 3
-Absent: 2
-Attendance: 60%
-Status: Low Attendance
-----------------
-Name: Yashvi
-Present: 5
-Absent: 0
-Attendance: 100%
-Status: Good
-----------------
-Name: Arjun
-Present: 2
-Absent: 3
-Attendance: 40%
-Status: Low Attendance
-----------------
-Highest Attendance: Yashvi
-Percentage: 100%
+// Output:
+// Name: Jenil
+// Present: 4
+// Absent: 1
+// Attendance: 80%
+// Status: Good
+// ----------------
+// Name: Mahir
+// Present: 3
+// Absent: 2
+// Attendance: 60%
+// Status: Low Attendance
+// ----------------
+// Name: Yashvi
+// Present: 5
+// Absent: 0
+// Attendance: 100%
+// Status: Good
+// ----------------
+// Name: Arjun
+// Present: 2
+// Absent: 3
+// Attendance: 40%
+// Status: Low Attendance
+// ----------------
+// Highest Attendance: Yashvi
+// Percentage: 100%
 
 
 
-Section 16-C: Mini Assignment 3 – Movie Rating Analyzer
-Question-1:
-const movies = [
-    ["Inception", [9, 8, 9, 10, 8]],
-    ["Avatar", [7, 8, 7, 6, 8]],
-    ["Interstellar", [10, 9, 9, 10, 9]],
-    ["Joker", [8, 7, 8, 9, 8]]
-];
+// Section 16-C: Mini Assignment 3 – Movie Rating Analyzer
+// Question-1:
+// const movies = [
+//     ["Inception", [9, 8, 9, 10, 8]],
+//     ["Avatar", [7, 8, 7, 6, 8]],
+//     ["Interstellar", [10, 9, 9, 10, 9]],
+//     ["Joker", [8, 7, 8, 9, 8]]
+// ];
 
-let highest = 0;
-let bestMovie = "";
+// let highest = 0;
+// let bestMovie = "";
 
-for (let i = 0; i < movies.length; i++) {
-    let name = movies[i][0];
-    let ratings = movies[i][1];
+// for (let i = 0; i < movies.length; i++) {
+//     let name = movies[i][0];
+//     let ratings = movies[i][1];
 
-    let total = 0;
+//     let total = 0;
 
-    for (let j = 0; j < ratings.length; j++) {
-        total = total + ratings[j];
-    }
+//     for (let j = 0; j < ratings.length; j++) {
+//         total = total + ratings[j];
+//     }
 
-    let average = total / ratings.length;
+//     let average = total / ratings.length;
 
-    let verdict;
+//     let verdict;
 
-    if (average >= 9) {
-        verdict = "Excellent";
-    }
-    else if (average >= 7) {
-        verdict = "Good";
-    }
-    else {
-        verdict = "Average";
-    }
+//     if (average >= 9) {
+//         verdict = "Excellent";
+//     }
+//     else if (average >= 7) {
+//         verdict = "Good";
+//     }
+//     else {
+//         verdict = "Average";
+//     }
 
-    console.log("Movie:", name);
-    console.log("Ratings:", ratings.join(" "));
-    console.log("Average Rating:", average);
-    console.log("Verdict:", verdict);
-    console.log("----------------");
+//     console.log("Movie:", name);
+//     console.log("Ratings:", ratings.join(" "));
+//     console.log("Average Rating:", average);
+//     console.log("Verdict:", verdict);
+//     console.log("----------------");
 
-    if (average > highest) {
-        highest = average;
-        bestMovie = name;
-    }
-}
+//     if (average > highest) {
+//         highest = average;
+//         bestMovie = name;
+//     }
+// }
 
-console.log("Highest Rated Movie:", bestMovie);
-console.log("Highest Average:", highest);
+// console.log("Highest Rated Movie:", bestMovie);
+// console.log("Highest Average:", highest);
 
 
-Output:
-Movie: Inception
-Ratings: 9 8 9 10 8
-Average Rating: 8.8
-Verdict: Good
-----------------
-Movie: Avatar
-Ratings: 7 8 7 6 8
-Average Rating: 7.2
-Verdict: Good
-----------------
-Movie: Interstellar
-Ratings: 10 9 9 10 9
-Average Rating: 9.4
-Verdict: Excellent
-----------------
-Movie: Joker
-Ratings: 8 7 8 9 8
-Average Rating: 8
-Verdict: Good
-----------------
-Highest Rated Movie: Interstellar
-Highest Average: 9.4
+// Output:
+// Movie: Inception
+// Ratings: 9 8 9 10 8
+// Average Rating: 8.8
+// Verdict: Good
+// ----------------
+// Movie: Avatar
+// Ratings: 7 8 7 6 8
+// Average Rating: 7.2
+// Verdict: Good
+// ----------------
+// Movie: Interstellar
+// Ratings: 10 9 9 10 9
+// Average Rating: 9.4
+// Verdict: Excellent
+// ----------------
+// Movie: Joker
+// Ratings: 8 7 8 9 8
+// Average Rating: 8
+// Verdict: Good
+// ----------------
+// Highest Rated Movie: Interstellar
+// Highest Average: 9.4
 
 
 
-Section 16-D: Mini Assignment 4 – Temperature of the Week
-Question-1:
-const temperatures = [
-    ["Monday", 32],
-    ["Tuesday", 35],
-    ["Wednesday", 30],
-    ["Thursday", 28],
-    ["Friday", 33],
-    ["Saturday", 36],
-    ["Sunday", 31]
-];
+// Section 16-D: Mini Assignment 4 – Temperature of the Week
+// Question-1:
+// const temperatures = [
+//     ["Monday", 32],
+//     ["Tuesday", 35],
+//     ["Wednesday", 30],
+//     ["Thursday", 28],
+//     ["Friday", 33],
+//     ["Saturday", 36],
+//     ["Sunday", 31]
+// ];
 
-let highest = temperatures[0][1];
-let lowest = temperatures[0][1];
+// let highest = temperatures[0][1];
+// let lowest = temperatures[0][1];
 
-let highestDay = "";
-let lowestDay = "";
+// let highestDay = "";
+// let lowestDay = "";
 
-let total = 0;
+// let total = 0;
 
-for (let i = 0; i < temperatures.length; i++) {
-    let day = temperatures[i][0];
-    let temp = temperatures[i][1];
+// for (let i = 0; i < temperatures.length; i++) {
+//     let day = temperatures[i][0];
+//     let temp = temperatures[i][1];
 
-    console.log(day + ":", temp + "°C");
+//     console.log(day + ":", temp + "°C");
 
-    total = total + temp;
+//     total = total + temp;
 
-    if (temp > highest) {
-        highest = temp;
-        highestDay = day;
-    }
+//     if (temp > highest) {
+//         highest = temp;
+//         highestDay = day;
+//     }
 
-    if (temp < lowest) {
-        lowest = temp;
-        lowestDay = day;
-    }
+//     if (temp < lowest) {
+//         lowest = temp;
+//         lowestDay = day;
+//     }
 
-    if (temp >= 35) {
-        console.log("Heat Alert on", day);
-    }
-}
+//     if (temp >= 35) {
+//         console.log("Heat Alert on", day);
+//     }
+// }
 
-let average = total / temperatures.length;
+// let average = total / temperatures.length;
 
-console.log("----------------");
-console.log("Highest Temperature:", highest + "°C");
-console.log("Highest Day:", highestDay);
-console.log("Lowest Temperature:", lowest + "°C");
-console.log("Lowest Day:", lowestDay);
-console.log("Average Temperature:", average.toFixed(2) + "°C");
+// console.log("----------------");
+// console.log("Highest Temperature:", highest + "°C");
+// console.log("Highest Day:", highestDay);
+// console.log("Lowest Temperature:", lowest + "°C");
+// console.log("Lowest Day:", lowestDay);
+// console.log("Average Temperature:", average.toFixed(2) + "°C");
 
 
-Output:
-Monday: 32°C
-Tuesday: 35°C
-Heat Alert on Tuesday
-Wednesday: 30°C
-Thursday: 28°C
-Friday: 33°C
-Saturday: 36°C
-Heat Alert on Saturday
-Sunday: 31°C
-----------------
-Highest Temperature: 36°C
-Highest Day: Saturday
-Lowest Temperature: 28°C
-Lowest Day: Thursday
-Average Temperature: 32.14°C
+// Output:
+// Monday: 32°C
+// Tuesday: 35°C
+// Heat Alert on Tuesday
+// Wednesday: 30°C
+// Thursday: 28°C
+// Friday: 33°C
+// Saturday: 36°C
+// Heat Alert on Saturday
+// Sunday: 31°C
+// ----------------
+// Highest Temperature: 36°C
+// Highest Day: Saturday
+// Lowest Temperature: 28°C
+// Lowest Day: Thursday
+// Average Temperature: 32.14°C
 
 
 
