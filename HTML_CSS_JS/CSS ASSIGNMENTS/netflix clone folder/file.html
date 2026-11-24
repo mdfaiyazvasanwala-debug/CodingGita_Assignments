@@ -1,0 +1,746 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #141414;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* NAVIGATION BAR */
+
+        .navbar {
+            width: 100%;
+            height: 55px;
+            display: flex;
+            align-items: center;
+            padding: 0 38px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.7), transparent);
+        }
+
+        .logo {
+            color: #e50914;
+            font-size: 25px;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .nav-links a {
+            color: #ddd;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        .nav-links a:first-child {
+            color: white;
+            font-weight: bold;
+        }
+
+        .nav-right {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            font-size: 19px;
+        }
+
+        .profile {
+            width: 25px;
+            height: 25px;
+            background-color: #e50914;
+            text-align: center;
+            font-size: 17px;
+        }
+
+        /* HERO SECTION */
+
+        .hero {
+            width: 100%;
+            height: 540px;
+            background:
+                linear-gradient(to top, #141414 2%, transparent 65%),
+                linear-gradient(to right, rgba(0,0,0,0.4), transparent),
+                url("https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1800");
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .hero-content {
+            position: absolute;
+            top: 285px;
+            left: 4.5%;
+        }
+
+        .show-name {
+            font-size: 13px;
+            letter-spacing: 3px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .show-name span {
+            color: #e50914;
+            font-size: 23px;
+            font-weight: bold;
+        }
+
+        .hero-content h1 {
+            font-size: 100px;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 12px;
+        }
+
+        .hero-buttons button {
+            padding: 8px 17px;
+            border: none;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .play-btn {
+            background-color: white;
+            color: black;
+        }
+
+        .info-btn {
+            background-color: rgba(109,109,110,0.8);
+            color: white;
+        }
+
+        /* MAIN CONTENT */
+
+        .main-content {
+            padding: 0 4.5%;
+            margin-top: -30px;
+            position: relative;
+        }
+
+        /* MOVIE ROWS */
+
+        .movie-section {
+            margin-bottom: 42px;
+        }
+
+        .section-title {
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 14px;
+        }
+
+        .section-title span {
+            font-size: 22px;
+            font-weight: normal;
+        }
+
+        .movie-row {
+            display: flex;
+            gap: 12px;
+            width: 100%;
+        }
+
+        .movie-card {
+            flex: 1;
+            min-width: 0;
+            height: 107px;
+            border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+            background-color: #292929;
+            transition: transform 0.3s;
+        }
+
+        .movie-card:hover {
+            transform: scale(1.05);
+        }
+
+        .movie-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .netflix-mark {
+            position: absolute;
+            top: 3px;
+            left: 5px;
+            color: #e50914;
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+        .movie-title {
+            position: absolute;
+            bottom: 10px;
+            left: 8px;
+            right: 8px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px black;
+        }
+
+        .new-label {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: #e50914;
+            padding: 4px 8px;
+            font-size: 9px;
+            font-weight: bold;
+        }
+
+        /* TOP 10 SECTION */
+
+        .top-ten-row {
+            display: flex;
+            gap: 12px;
+            overflow: hidden;
+        }
+
+        .top-card {
+            flex: 1;
+            min-width: 0;
+            height: 140px;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .number {
+            position: absolute;
+            left: 0;
+            bottom: -12px;
+            font-size: 180px;
+            line-height: 1;
+            font-weight: bold;
+            color: #141414;
+            -webkit-text-stroke: 2px #555;
+            z-index: 0;
+        }
+
+        .top-card img {
+            width: 70%;
+            height: 135px;
+            object-fit: cover;
+            position: absolute;
+            right: 0;
+            z-index: 1;
+            border-radius: 3px;
+        }
+
+        /* TRENDING AND SCI-FI */
+
+        .wide-card {
+            flex: 1;
+            min-width: 0;
+            height: 107px;
+            position: relative;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .wide-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* FOOTER */
+
+        footer {
+            width: 60%;
+            margin: 50px auto 25px auto;
+            color: #808080;
+            font-size: 10px;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            font-size: 19px;
+            color: #808080;
+        }
+
+        .footer-links {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 18px;
+        }
+
+        .footer-column {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .footer-column a {
+            color: #808080;
+            text-decoration: none;
+        }
+
+        .service-code {
+            margin-top: 20px;
+            background: transparent;
+            color: #808080;
+            border: 1px solid #808080;
+            padding: 7px 12px;
+            font-size: 10px;
+        }
+
+        .copyright {
+            margin-top: 15px;
+            font-size: 9px;
+        }
+
+        /* RESPONSIVE DESIGN */
+
+        @media (max-width: 900px) {
+
+            .navbar {
+                padding: 0 20px;
+            }
+
+            .hero-content {
+                left: 4%;
+            }
+
+            .hero-content h1 {
+                font-size: 75px;
+            }
+
+            .main-content {
+                padding: 0 3%;
+            }
+
+            .movie-row {
+                overflow-x: auto;
+            }
+
+            .movie-card, .wide-card {
+                min-width: 180px;
+            }
+
+            .top-card {
+                min-width: 150px;
+            }
+
+            footer {
+                width: 80%;
+            }
+        }
+
+        @media (max-width: 600px) {
+
+            .navbar {
+                height: 55px;
+                padding: 0 15px;
+            }
+
+            .logo {
+                font-size: 21px;
+                margin-right: 12px;
+            }
+
+            .nav-links {
+                gap: 9px;
+            }
+
+            .nav-links a {
+                font-size: 10px;
+            }
+
+            .nav-links a:nth-child(n+4) {
+                display: none;
+            }
+
+            .nav-right {
+                gap: 8px;
+                font-size: 15px;
+            }
+
+            .hero {
+                height: 420px;
+            }
+
+            .hero-content {
+                top: 230px;
+            }
+
+            .hero-content h1 {
+                font-size: 55px;
+            }
+
+            .show-name {
+                font-size: 10px;
+            }
+
+            .main-content {
+                margin-top: -10px;
+                padding: 0 15px;
+            }
+
+            .movie-card, .wide-card {
+                min-width: 155px;
+                height: 95px;
+            }
+
+            .top-card {
+                min-width: 130px;
+                height: 120px;
+            }
+
+            .top-card img {
+                height: 115px;
+            }
+
+            .number {
+                font-size: 145px;
+            }
+
+            .movie-section {
+                margin-bottom: 30px;
+            }
+
+            footer {
+                width: 90%;
+            }
+
+            .footer-links {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+
+    <header class="navbar">
+
+        <div class="logo">NETFLIX</div>
+
+        <nav class="nav-links">
+            <a href="#">Start</a>
+            <a href="#">Shows</a>
+            <a href="#">Movies</a>
+            <a href="#">New</a>
+            <a href="#">My List</a>
+        </nav>
+
+        <div class="nav-right">
+            <span>⌕</span>
+            <span>♔</span>
+            <span>♟</span>
+            <div class="profile">👤</div>
+            <span>⌄</span>
+        </div>
+
+    </header>
+
+
+    <!-- HERO BANNER -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="show-name">
+                <span>N</span> SHOW
+            </div>
+
+            <h1>MAID</h1>
+
+            <div class="hero-buttons">
+
+                <button class="play-btn">
+                    ▶ Play
+                </button>
+
+                <button class="info-btn">
+                    ⓘ More info
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="main-content">
+
+
+        <!-- SEE AGAIN SECTION -->
+
+        <section class="movie-section">
+
+            <h2 class="section-title">
+                See again <span>›</span>
+            </h2>
+
+            <div class="movie-row">
+
+                <div class="movie-card">
+                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500" alt="You">
+                    <span class="netflix-mark">N</span>
+                    <div class="movie-title">YOU</div>
+                    <span class="new-label">NEW EPISODES</span>
+                </div>
+
+                <div class="movie-card">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500" alt="Snowpiercer">
+                    <span class="netflix-mark">N</span>
+                    <div class="movie-title">SNOWPIERCER</div>
+                </div>
+
+                <div class="movie-card">
+                    <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=500" alt="Universe">
+                    <div class="movie-title">THE UNIVERSE</div>
+                </div>
+
+                <div class="movie-card">
+                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500" alt="Last Kingdom">
+                    <span class="netflix-mark">N</span>
+                    <div class="movie-title">THE LAST KINGDOM</div>
+                </div>
+
+                <div class="movie-card">
+                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=500" alt="Money Heist">
+                    <span class="netflix-mark">N</span>
+                    <div class="movie-title">MONEY HEIST</div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TOP 10 SECTION -->
+
+        <section class="movie-section">
+
+            <h2 class="section-title">
+                Top 10 in your country <span>›</span>
+            </h2>
+
+            <div class="top-ten-row">
+
+                <div class="top-card">
+                    <span class="number">1</span>
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500" alt="Red Notice">
+                    <span class="netflix-mark">N</span>
+                </div>
+
+                <div class="top-card">
+                    <span class="number">2</span>
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500" alt="Jason Bourne">
+                </div>
+
+                <div class="top-card">
+                    <span class="number">3</span>
+                    <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=500" alt="Squid Game">
+                    <span class="netflix-mark">N</span>
+                </div>
+
+                <div class="top-card">
+                    <span class="number">4</span>
+                    <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=500" alt="Central Intelligence">
+                </div>
+
+                <div class="top-card">
+                    <span class="number">5</span>
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500" alt="Hellbound">
+                    <span class="netflix-mark">N</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TRENDING NOW -->
+
+        <section class="movie-section">
+
+            <h2 class="section-title">
+                Trending now <span>›</span>
+            </h2>
+
+            <div class="movie-row">
+
+                <div class="wide-card">
+                    <img src="https://images.unsplash.com/photo-1551710029-607e06bd45ff?w=500" alt="Explained">
+                    <span class="netflix-mark">N</span>
+                    <div class="movie-title">EXPLAINED</div>
+                    <span class="new-label">NEW EPISODE</span>
+                </div>
+
+                <div class="wide-card">
+                    <img src="https://images.unsplash.com/photo-1517299321609-52687d1bc55a?w=500" alt="Into the Night">
+                    <span class="netflix-mark">N</span>
+                    <div class="movie-title">INTO THE NIGHT</div>
+                </div>
+
+                <div class="wide-card">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=500" alt="Locke and Key">
+                    <span class="netflix-mark">N</span>
+                    <div class="movie-title">LOCKE & KEY</div>
+                    <span class="new-label">NEW EPISODES</span>
+                </div>
+
+                <div class="wide-card">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500" alt="Queen's Gambit">
+                    <span class="netflix-mark">N</span>
+                    <div class="movie-title">THE QUEEN'S GAMBIT</div>
+                </div>
+
+                <div class="wide-card">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500" alt="The Crown">
+                    <div class="movie-title">THE CROWN</div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SCI-FI SHOWS -->
+
+        <section class="movie-section">
+
+            <h2 class="section-title">
+                Sci-fi shows <span>›</span>
+            </h2>
+
+            <div class="movie-row">
+
+                <div class="wide-card">
+                    <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=500" alt="Altered Carbon">
+                    <span class="netflix-mark">N</span>
+                    <div class="movie-title">ALTERED CARBON</div>
+                </div>
+
+                <div class="wide-card">
+                    <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=500" alt="Another Life">
+                    <span class="netflix-mark">N</span>
+                    <div class="movie-title">ANOTHER LIFE</div>
+                </div>
+
+                <div class="wide-card">
+                    <img src="https://images.unsplash.com/photo-1535378620166-273708d44e4c?w=500" alt="Umbrella Academy">
+                    <span class="netflix-mark">N</span>
+                    <div class="movie-title">THE UMBRELLA ACADEMY</div>
+                </div>
+
+                <div class="wide-card">
+                    <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500" alt="Sense8">
+                    <span class="netflix-mark">N</span>
+                    <div class="movie-title">SENSE8</div>
+                </div>
+
+                <div class="wide-card">
+                    <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=500" alt="The Rain">
+                    <span class="netflix-mark">N</span>
+                    <div class="movie-title">THE RAIN</div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="social-icons">
+            <span>▣</span>
+            <span>◎</span>
+            <span>♥</span>
+            <span>▶</span>
+        </div>
+
+        <div class="footer-links">
+
+            <div class="footer-column">
+                <a href="#">Seslendirme ve Alt Yazı</a>
+                <a href="#">Medya Merkezi</a>
+                <a href="#">Gizlilik</a>
+                <a href="#">Bize Ulaşın</a>
+            </div>
+
+            <div class="footer-column">
+                <a href="#">Sesli Betimleme</a>
+                <a href="#">Yatırımcı İlişkileri</a>
+                <a href="#">Yasal Hükümler</a>
+            </div>
+
+            <div class="footer-column">
+                <a href="#">Yardım Merkezi</a>
+                <a href="#">İş imkanları</a>
+                <a href="#">Çerez Tercihleri</a>
+            </div>
+
+            <div class="footer-column">
+                <a href="#">Hediye Kartları</a>
+                <a href="#">Kullanım Koşulları</a>
+                <a href="#">Kurumsal Bilgiler</a>
+            </div>
+
+        </div>
+
+        <button class="service-code">
+            Hizmet Kodu
+        </button>
+
+        <p class="copyright">
+            © 1997-2021 Netflix, Inc. (1-062d573a0ee099242)
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
